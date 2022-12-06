@@ -1,0 +1,19 @@
+{
+  "name": "wellbeeingapi",
+  "version": "1.0.0",
+  "description": "it is an API",
+  "main": "index.js",
+  "type": "module",
+  "author": "danielwillems",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mqtt": "^4.3.7",
+    "mysql2": "^2.3.3"
+  }
+}
